@@ -266,10 +266,10 @@ window.view = {
 		this.drawCircle(275, 75, '#000000');
 		this.drawCircle(75, 325, '#000000');
 		this.drawCircle(275, 325, '#000000');
-		this.displayText('(x1, y1)', 65, 65); 
-		this.displayText('(x2, y2)', 265, 65);
-		this.displayText('(x3, y3)', 265, 345);
-		this.displayText('(x4, y4)', 75, 345);
+		this.displayText('(050, 050)', 65, 65); 
+		this.displayText('(250, 050)', 265, 65);
+		this.displayText('(250, 300)', 265, 345);
+		this.displayText('(050, 300)', 75, 345);
 		this.canvasContext.save();
     	},
 	/* validationInput: check validation of input that is given by user and if input value is valid 
